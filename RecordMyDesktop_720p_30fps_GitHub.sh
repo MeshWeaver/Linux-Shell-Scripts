@@ -1,5 +1,7 @@
+# By Philippe M. MeshWeaver (meshweaver.blogspot.ca)
 
-# To run this script you must first have "recordmydesktop" installed. There are also the GTK and qT versions of RMD which present a GUI, but for this I use the command-line version.
+# To run this script you must first have "recordmydesktop" installed. There are also the GTK and qT versions of
+# RMD which present a GUI, but for this I use the command-line version.
 # The script will also need to be set as executable if you want to run it from the *.sh file.
 
 # "-x / -y **VALUE**" -> where on the screen to start the screencapture
@@ -8,6 +10,7 @@
 # "--fps" -> number of frames-per-second to record.
 # "--device **NAME**" -> audio device to record from.
 
-# Video outputs in Ogg format - video editors like KDenlive might have trouble handling the format, in which case a FFMPEG conversion might be necessary.
+# Video outputs in Ogg format - video editors like KDenlive might have trouble handling the format, in which
+# case a FFMPEG conversion might be necessary.
 
 recordmydesktop -x **VALUE** -y **VALUE** --width 1280 --height 720 --fps 30 --device pulse --workdir **FILEPATH** -o **FILEPATH** screencast.ogv

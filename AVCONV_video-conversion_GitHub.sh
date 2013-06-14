@@ -1,3 +1,5 @@
+# By Philippe M. MeshWeaver (meshweaver.blogspot.ca)
+
 # My system says that ffmpeg is deprecated and to instead use "avconv". Your system might not be the same.
 # For a full list of options, check the (very lengthy) documentation: http://libav.org/avconv.html
 
